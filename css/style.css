@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.urna{
+    background-color: #dbd5c9;
+    padding: 30px;
+    border: 1px solid #111;
+    display: flex;
+}
+
+.tela{
+    width: 500px;
+    height: 320px;
+    background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+    border: 2px solid #555;
+}
+
+.teclado{
+    margin-left: 30px;
+    background-color: #403A3A;
+}
+
+.teclado-linha{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.teclado-botao{
+    width: 70px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 0 #555;
+}
+
+.btn-branco{
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+}
+
+.btn-corrige{
+    background-color: #F09046;
+    color: #000;
+    font-size: 15px;
+}
+
+.btn-confirma{
+    background-color: #48C079;
+    color: #000;
+    font-size: 15px;
+    width: 90px;
+    height: 45px;
+}
