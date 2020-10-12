@@ -4,10 +4,26 @@
     box-sizing: border-box;
 }
 
+@keyframes pisca{
+    0%
+    {
+        opacity: 0.2;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0.2;
+    }
+}
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .urna{
@@ -15,6 +31,8 @@ body{
     padding: 30px;
     border: 1px solid #111;
     display: flex;
+    margin-top: 10%;
+    border-radius: 4px;
 }
 
 .tela{
@@ -22,6 +40,8 @@ body{
     height: 320px;
     background: linear-gradient(to right, #E8E8E8, #C1C1C1);
     border: 2px solid #555;
+    display: flex;
+    flex-direction: column;
 }
 
 .teclado{
@@ -36,7 +56,7 @@ body{
 }
 
 .teclado-botao{
-    width: 70px;
+    width: 80px;
     height: 40px;
     background-color: #000;
     color: #fff;
@@ -53,12 +73,14 @@ body{
     background-color: #fff;
     color: #000;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .btn-corrige{
     background-color: #F09046;
     color: #000;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .btn-confirma{
@@ -67,4 +89,85 @@ body{
     font-size: 15px;
     width: 90px;
     height: 45px;
+    font-weight: bold;
+}
+
+.scr-1{
+    flex: 1;
+    display: flex;
+}
+
+.scr-2{
+    height: 50px;
+    font-size: 14px;
+    border-top: 2px solid #000;
+    padding-left: 10px;
+}
+
+.info{
+    flex: 1 ;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.info-1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.info-2{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.info-voto{
+    height: 50px;
+}
+
+.numero{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pisca{
+    animation: pisca 0.8s infinite;
+}
+
+.info-dados{
+    flex: 1;
+    line-height: 30px;
+}
+
+.foto{
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.image{
+    border: 1px solid #000;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.image.small{
+    width: 80%;
+    font-size: 12px;
+}
+
+.image img{
+    width: 100%;
 }
