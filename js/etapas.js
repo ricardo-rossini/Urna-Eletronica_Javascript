@@ -4,7 +4,7 @@ let etapas = [
         numeros: 5,
         candidatos: [
             {
-                numero: 36111,
+                numero: '36111',
                 nome: 'Paula Oliveira',
                 partido: 'PAC',
                 fotos:[
@@ -12,7 +12,7 @@ let etapas = [
                 ]
             },
             {
-                numero: 25941,
+                numero: '25941',
                 nome: 'Rogerio Correia',
                 partido: 'PMN',
                 fotos:[
@@ -20,7 +20,7 @@ let etapas = [
                 ]
             },
             {
-                numero: 44121,
+                numero: '44121',
                 nome: 'Wesley Silva',
                 partido: 'PNU',
                 fotos:[
@@ -28,7 +28,7 @@ let etapas = [
                 ]
             },
             {
-                numero: 51333,
+                numero: '51333',
                 nome: 'Jurandir Massa',
                 partido: 'PHMP',
                 fotos:[
@@ -36,7 +36,7 @@ let etapas = [
                 ]
             },
             {
-                numero: 93111,
+                numero: '93111',
                 nome: 'Marco Antonio Oliveira',
                 partido: 'PBM',
                 fotos:[
@@ -44,7 +44,7 @@ let etapas = [
                 ]
             },
             {
-                numero: 77355,
+                numero: '77355',
                 nome: 'Luiz Careca',
                 partido: 'PCL',
                 fotos:[
@@ -58,7 +58,7 @@ let etapas = [
         numeros: 2,
         candidatos: [
             {
-                nomero: 36,
+                numero: '36',
                 nome:'Marcio Bolinha',
                 partido: 'PAC',
                 vice:"Oseas",
@@ -68,7 +68,7 @@ let etapas = [
                 ]
             },
             {
-                nomero: 36,
+                numero: '36',
                 nome:'Marcio Bolinha',
                 partido: 'PAC',
                 vice:"Oseas",
@@ -78,7 +78,7 @@ let etapas = [
                 ]
             },
             {
-                nomero: 25,
+                numero: '25',
                 nome:'Aparecida Leme',
                 partido: 'PMN',
                 vice:"Cicero",
@@ -88,7 +88,7 @@ let etapas = [
                 ]
             },
             {
-                nomero: 44,
+                numero: '44',
                 nome:'Josue Marinho',
                 partido: 'PNU',
                 vice:"Wandercleison",
@@ -98,7 +98,7 @@ let etapas = [
                 ]
             },
             {
-                nomero: 93,
+                numero: '93',
                 nome:'Francisco Manoel',
                 partido: 'PBM',
                 vice:"Eulalia",
@@ -108,7 +108,7 @@ let etapas = [
                 ]
             },
             {
-                nomero: 77,
+                numero: '77',
                 nome:'Denilson Zoio',
                 partido: 'PCL',
                 vice:"Milton",
