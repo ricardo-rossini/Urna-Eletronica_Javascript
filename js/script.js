@@ -9,12 +9,14 @@ let descricao = document.querySelector('.info-dados');
 // controle de ambientes
 let etapaAtual = 0;
 let numero = '';
+let branc = false;
 //******************************************************** */
 
 function comecaEtapa() {
     let etapa = etapas[etapaAtual];
     let numHTML = '';
     numero = '';
+    branc = false;
 
     for(let i = 0; i < etapa.numeros; i++){
         if (i === 0) {
@@ -81,7 +83,13 @@ function clicou(n) {
 }
 
 function branco() {
-    alert("branco");
+    if(numero === '') {
+        branc = true;
+        votoInfo.style.display = 'block';
+        aviso.style.display = 'block';
+        num.innerHTML = '';
+        descricao.innerHTML = '<div class="aviso-grande pisca">VOTO EM BRANCO</div>';
+    }
 }
 
 function corrige() {
