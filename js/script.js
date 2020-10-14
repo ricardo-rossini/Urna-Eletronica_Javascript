@@ -57,6 +57,11 @@ function atualizaUI() {
 
         fotos.innerHTML = fotosHTML;
     }
+    else{
+        votoInfo.style.display = 'block';
+        aviso.style.display = 'block';
+        descricao.innerHTML = '<div class="aviso=grande">VOTO NULO</div>';
+    }
 }
 
 function clicou(n) {
