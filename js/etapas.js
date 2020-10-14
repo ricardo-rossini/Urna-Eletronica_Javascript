@@ -63,18 +63,8 @@ let etapas = [
                 partido: 'PAC',
                 vice:"Oseas",
                 fotos:[
-                    {url:'img/cp1.jpg', legenda: 'Prefeito', small: false},
-                    {url:'img/v1.jpg', legenda: 'Vice-Prefeito', small: true}
-                ]
-            },
-            {
-                numero: '36',
-                nome:'Marcio Bolinha',
-                partido: 'PAC',
-                vice:"Oseas",
-                fotos:[
-                    {url:'img/cp1.jpg', legenda: 'Prefeito', small: false},
-                    {url:'img/v1.jpg', legenda: 'Vice-Prefeito', small: true}
+                    {url:'img/cp1.jpg', legenda: 'Prefeito'},
+                    {url:'img/v1.jpg', legenda: 'Vice-Prefeito', small:true}
                 ]
             },
             {
@@ -83,8 +73,8 @@ let etapas = [
                 partido: 'PMN',
                 vice:"Cicero",
                 fotos:[
-                    {url:'img/cp2.jpg', legenda: 'Prefeito', small: false},
-                    {url:'img/v2.jpg', legenda: 'Vice-Prefeito', small: true}
+                    {url:'img/cp2.jpg', legenda: 'Prefeito'},
+                    {url:'img/v2.jpg', legenda: 'Vice-Prefeito', small:true}
                 ]
             },
             {
@@ -93,8 +83,8 @@ let etapas = [
                 partido: 'PNU',
                 vice:"Wandercleison",
                 fotos:[
-                    {url:'img/cp3.jpg', legenda: 'Prefeito', small: false},
-                    {url:'img/v3.jpg', legenda: 'Vice-Prefeito', small: true}
+                    {url:'img/cp3.jpg', legenda: 'Prefeito'},
+                    {url:'img/v3.jpg', legenda: 'Vice-Prefeito', small:true}
                 ]
             },
             {
@@ -103,8 +93,8 @@ let etapas = [
                 partido: 'PBM',
                 vice:"Eulalia",
                 fotos:[
-                    {url:'img/cp4.jpg', legenda: 'Prefeito', small: false},
-                    {url:'img/v4.jpg', legenda: 'Vice-Prefeito', small: true}
+                    {url:'img/cp4.jpg', legenda: 'Prefeito'},
+                    {url:'img/v4.jpg', legenda: 'Vice-Prefeito', small:true}
                 ]
             },
             {
@@ -113,8 +103,8 @@ let etapas = [
                 partido: 'PCL',
                 vice:"Milton",
                 fotos:[
-                    {url:'img/cp1.jpg', legenda: 'Prefeito', small: false},
-                    {url:'img/v1.jpg', legenda: 'Vice-Prefeito', small: true}
+                    {url:'img/cp1.jpg', legenda: 'Prefeito'},
+                    {url:'img/v1.jpg', legenda: 'Vice-Prefeito', small:true}
                 ]
             }
         ]
