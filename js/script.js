@@ -9,14 +9,15 @@ let descricao = document.querySelector('.info-dados');
 // controle de ambientes
 let etapaAtual = 0;
 let numero = '';
-let branc = false;
+let votoBranco = false;
+let votos = [];
 //******************************************************** */
 
 function comecaEtapa() {
     let etapa = etapas[etapaAtual];
     let numHTML = '';
     numero = '';
-    branc = false;
+    votoBranco = false;
 
     for(let i = 0; i < etapa.numeros; i++){
         if (i === 0) {
@@ -90,7 +91,7 @@ function clicou(n) {
 
 function branco() {
     numero = '';
-    branc = true;
+    votoBranco = true;
     votoInfo.style.display = 'block';
     aviso.style.display = 'block';
     num.innerHTML = '';
@@ -106,13 +107,23 @@ function confirma() {
     let etapa = etapas[etapaAtual];
     let votoConfirmado = false;
     
-    if(branc === true) {
+    if(votoBranco === true) {
         votoConfirmado = true;
-        console.log('confirmando voto em branco');
+        votos.push(
+            {
+                etapa: etapas[etapaAtual].titulo,
+                voto: 'branco'
+            }
+        );
     }
     else if(numero.length === etapa.numeros) {
         votoConfirmado = true;
-        console.log('confirmando voto', numero );
+        votos.push(
+            {
+                etapa: etapas[etapaAtual].titulo,
+                voto: numero
+            }
+        );
     }
 
     if(votoConfirmado) {
@@ -122,6 +133,7 @@ function confirma() {
         }
         else{
             document.querySelector('.tela').innerHTML = '<div class="aviso-gigante">FIM</div>';
+            console.log(votos);
         }
     }
 }
