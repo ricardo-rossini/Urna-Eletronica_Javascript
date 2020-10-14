@@ -83,13 +83,12 @@ function clicou(n) {
 }
 
 function branco() {
-    if(numero === '') {
-        branc = true;
-        votoInfo.style.display = 'block';
-        aviso.style.display = 'block';
-        num.innerHTML = '';
-        descricao.innerHTML = '<div class="aviso-grande pisca">VOTO EM BRANCO</div>';
-    }
+    numero = '';
+    branc = true;
+    votoInfo.style.display = 'block';
+    aviso.style.display = 'block';
+    num.innerHTML = '';
+    descricao.innerHTML = '<div class="aviso-grande pisca">VOTO EM BRANCO</div>';
 }
 
 function corrige() {
