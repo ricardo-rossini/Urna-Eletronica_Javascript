@@ -54,11 +54,17 @@ function atualizaUI() {
         aviso.style.display = 'block';
 
         let fotosHTML = '';
-        for(let i in candidato.fotos) {
-            fotosHTML += `<div class="image"><img src="${candidato.fotos[i].url}" alt="">${candidato.fotos[i].legenda}</div>`
+        for(let i = 0; i < candidato.fotos.length; i++) {
+            if(i === 0) {
+                fotosHTML += `<div class="image"><img src="${candidato.fotos[i].url}" alt="">${candidato.fotos[i].legenda}</div>`;
+            }
+            else{
+                fotosHTML += `<div class="image small"><img src="${candidato.fotos[i].url}" alt="">${candidato.fotos[i].legenda}</div>`;
+            }
         }
         fotos.innerHTML = fotosHTML;
-    }else{
+    }
+    else{
         votoInfo.style.display = 'block';
         aviso.style.display = 'block';
         descricao.innerHTML = '<div class="aviso-grande pisca">VOTO NULO</div>';
@@ -115,7 +121,7 @@ function confirma() {
             comecaEtapa();
         }
         else{
-            console.log('FIM')
+            document.querySelector('.tela').innerHTML = '<div class="aviso-gigante">FIM</div>';
         }
     }
 }

@@ -8,7 +8,7 @@ let etapas = [
                 nome: 'Paula Oliveira',
                 partido: 'PAC',
                 fotos:[
-                    {url:'img/cv1.jpg', legenda: 'Vereador', small:'false'}
+                    {url:'img/cv1.jpg', legenda: 'Vereador'}
                 ]
             },
             {
@@ -16,7 +16,7 @@ let etapas = [
                 nome: 'Rogerio Correia',
                 partido: 'PMN',
                 fotos:[
-                    {url:'img/cv2.jpg', legenda: 'Vereador', small:'false'}
+                    {url:'img/cv2.jpg', legenda: 'Vereador', small: false}
                 ]
             },
             {
@@ -24,7 +24,7 @@ let etapas = [
                 nome: 'Wesley Silva',
                 partido: 'PNU',
                 fotos:[
-                    {url:'img/cv3.jpg', legenda: 'Vereador', small:'false'}
+                    {url:'img/cv3.jpg', legenda: 'Vereador', small: false}
                 ]
             },
             {
@@ -32,7 +32,7 @@ let etapas = [
                 nome: 'Jurandir Massa',
                 partido: 'PHMP',
                 fotos:[
-                    {url:'img/cv4.jpg', legenda: 'Vereador', small:'false'}
+                    {url:'img/cv4.jpg', legenda: 'Vereador', small: false}
                 ]
             },
             {
@@ -40,7 +40,7 @@ let etapas = [
                 nome: 'Marco Antonio Oliveira',
                 partido: 'PBM',
                 fotos:[
-                    {url:'img/cv5.jpg', legenda: 'Vereador', small:'false'}
+                    {url:'img/cv5.jpg', legenda: 'Vereador', small: false}
                 ]
             },
             {
@@ -48,7 +48,7 @@ let etapas = [
                 nome: 'Luiz Careca',
                 partido: 'PCL',
                 fotos:[
-                    {url:'img/cv6.jpg', legenda: 'Vereador', small:'false'}
+                    {url:'img/cv6.jpg', legenda: 'Vereador', small: false}
                 ]
             },
         ]
@@ -63,8 +63,8 @@ let etapas = [
                 partido: 'PAC',
                 vice:"Oseas",
                 fotos:[
-                    {url:'img/cp1.jpg', legenda: 'Prefeito'},
-                    {url:'img/v1.jpg', legenda: 'Vice-Prefeito', small:true}
+                    {url:'img/cp1.jpg', legenda: 'Prefeito', small: false},
+                    {url:'img/v1.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
             },
             {
@@ -73,8 +73,8 @@ let etapas = [
                 partido: 'PMN',
                 vice:"Cicero",
                 fotos:[
-                    {url:'img/cp2.jpg', legenda: 'Prefeito'},
-                    {url:'img/v2.jpg', legenda: 'Vice-Prefeito', small:true}
+                    {url:'img/cp2.jpg', legenda: 'Prefeito', small: false},
+                    {url:'img/v2.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
             },
             {
@@ -83,8 +83,8 @@ let etapas = [
                 partido: 'PNU',
                 vice:"Wandercleison",
                 fotos:[
-                    {url:'img/cp3.jpg', legenda: 'Prefeito'},
-                    {url:'img/v3.jpg', legenda: 'Vice-Prefeito', small:true}
+                    {url:'img/cp3.jpg', legenda: 'Prefeito', small: false},
+                    {url:'img/v3.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
             },
             {
@@ -93,8 +93,8 @@ let etapas = [
                 partido: 'PBM',
                 vice:"Eulalia",
                 fotos:[
-                    {url:'img/cp4.jpg', legenda: 'Prefeito'},
-                    {url:'img/v4.jpg', legenda: 'Vice-Prefeito', small:true}
+                    {url:'img/cp4.jpg', legenda: 'Prefeito', small: false},
+                    {url:'img/v4.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
             },
             {
@@ -103,8 +103,8 @@ let etapas = [
                 partido: 'PCL',
                 vice:"Milton",
                 fotos:[
-                    {url:'img/cp1.jpg', legenda: 'Prefeito'},
-                    {url:'img/v1.jpg', legenda: 'Vice-Prefeito', small:true}
+                    {url:'img/cp1.jpg', legenda: 'Prefeito', small: false},
+                    {url:'img/v1.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
             }
         ]
