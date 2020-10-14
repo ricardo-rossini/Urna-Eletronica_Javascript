@@ -171,3 +171,9 @@ body{
 .image img{
     width: 100%;
 }
+
+.aviso-grande{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 30px;
+}

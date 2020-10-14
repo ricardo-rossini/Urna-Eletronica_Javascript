@@ -14,6 +14,7 @@ let numero = '';
 function comecaEtapa() {
     let etapa = etapas[etapaAtual];
     let numHTML = '';
+    numero = '';
 
     for(let i = 0; i < etapa.numeros; i++){
         if (i === 0) {
@@ -54,14 +55,13 @@ function atualizaUI() {
         for(let i in candidato.fotos) {
             fotosHTML = `<div class="image"><img src="${candidato.fotos[i].url}" alt="">${candidato.fotos[i].legenda}</div>`
         }
-
         fotos.innerHTML = fotosHTML;
-    }
-    else{
+    }else{
         votoInfo.style.display = 'block';
         aviso.style.display = 'block';
-        descricao.innerHTML = '<div class="aviso=grande">VOTO NULO</div>';
+        descricao.innerHTML = '<div class="aviso-grande pisca">VOTO NULO</div>';
     }
+    
 }
 
 function clicou(n) {
@@ -85,7 +85,7 @@ function branco() {
 }
 
 function corrige() {
-    alert("corrige");
+    comecaEtapa();
 }
 
 function confirma() {
